@@ -22,6 +22,36 @@
 		8EDCC44D1900020600B911AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDCC42C1900020600B911AD /* UIKit.framework */; };
 		8EDCC4551900020600B911AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC4531900020600B911AD /* InfoPlist.strings */; };
 		8EDCC4571900020600B911AD /* playerControllerUdpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCC4561900020600B911AD /* playerControllerUdpTests.m */; };
+		8EDCC48D1900032F00B911AD /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCC4631900032F00B911AD /* DDAbstractDatabaseLogger.m */; };
+		8EDCC48E1900032F00B911AD /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCC4651900032F00B911AD /* DDASLLogger.m */; };
+		8EDCC48F1900032F00B911AD /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCC4671900032F00B911AD /* DDFileLogger.m */; };
+		8EDCC4901900032F00B911AD /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCC46A1900032F00B911AD /* DDLog.m */; };
+		8EDCC4911900032F00B911AD /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCC46C1900032F00B911AD /* DDTTYLogger.m */; };
+		8EDCC4921900032F00B911AD /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCC46F1900032F00B911AD /* DDContextFilterLogFormatter.m */; };
+		8EDCC4931900032F00B911AD /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCC4711900032F00B911AD /* DDDispatchQueueLogFormatter.m */; };
+		8EDCC4941900032F00B911AD /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCC4731900032F00B911AD /* DDMultiFormatter.m */; };
+		8EDCC4951900032F00B911AD /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC4741900032F00B911AD /* README.txt */; };
+		8EDCC4961900032F00B911AD /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCC4761900032F00B911AD /* GCDAsyncUdpSocket.m */; };
+		8EDCC4971900032F00B911AD /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC4791900032F00B911AD /* bg1.png */; };
+		8EDCC4981900032F00B911AD /* bgIpad0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC47A1900032F00B911AD /* bgIpad0.jpg */; };
+		8EDCC4991900032F00B911AD /* bgIpad1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC47B1900032F00B911AD /* bgIpad1.jpg */; };
+		8EDCC49A1900032F00B911AD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC47C1900032F00B911AD /* icon.png */; };
+		8EDCC49B1900032F00B911AD /* noTouchAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC47D1900032F00B911AD /* noTouchAdd.png */; };
+		8EDCC49C1900032F00B911AD /* noTouchMult.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC47E1900032F00B911AD /* noTouchMult.png */; };
+		8EDCC49D1900032F00B911AD /* noTouchMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC47F1900032F00B911AD /* noTouchMute.png */; };
+		8EDCC49E1900032F00B911AD /* noTouchPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC4801900032F00B911AD /* noTouchPlay.png */; };
+		8EDCC49F1900032F00B911AD /* noTouchStop.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC4811900032F00B911AD /* noTouchStop.png */; };
+		8EDCC4A01900032F00B911AD /* yesTouchAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC4821900032F00B911AD /* yesTouchAdd.png */; };
+		8EDCC4A11900032F00B911AD /* yesTouchMult.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC4831900032F00B911AD /* yesTouchMult.png */; };
+		8EDCC4A21900032F00B911AD /* yesTouchMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC4841900032F00B911AD /* yesTouchMute.png */; };
+		8EDCC4A31900032F00B911AD /* yesTouchPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC4851900032F00B911AD /* yesTouchPlay.png */; };
+		8EDCC4A41900032F00B911AD /* yesTouchStop.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC4861900032F00B911AD /* yesTouchStop.png */; };
+		8EDCC4A51900032F00B911AD /* button0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC4871900032F00B911AD /* button0.png */; };
+		8EDCC4A61900032F00B911AD /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC4881900032F00B911AD /* button1.png */; };
+		8EDCC4A71900032F00B911AD /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC4891900032F00B911AD /* button2.png */; };
+		8EDCC4A81900032F00B911AD /* button3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC48A1900032F00B911AD /* button3.png */; };
+		8EDCC4A91900032F00B911AD /* button4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC48B1900032F00B911AD /* button4.png */; };
+		8EDCC4AA1900032F00B911AD /* button5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCC48C1900032F00B911AD /* button5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +85,46 @@
 		8EDCC4521900020600B911AD /* playerControllerUdpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "playerControllerUdpTests-Info.plist"; sourceTree = "<group>"; };
 		8EDCC4541900020600B911AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8EDCC4561900020600B911AD /* playerControllerUdpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playerControllerUdpTests.m; sourceTree = "<group>"; };
+		8EDCC4621900032F00B911AD /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		8EDCC4631900032F00B911AD /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		8EDCC4641900032F00B911AD /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		8EDCC4651900032F00B911AD /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		8EDCC4661900032F00B911AD /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		8EDCC4671900032F00B911AD /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		8EDCC4681900032F00B911AD /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		8EDCC4691900032F00B911AD /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		8EDCC46A1900032F00B911AD /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		8EDCC46B1900032F00B911AD /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		8EDCC46C1900032F00B911AD /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		8EDCC46E1900032F00B911AD /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		8EDCC46F1900032F00B911AD /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		8EDCC4701900032F00B911AD /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		8EDCC4711900032F00B911AD /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		8EDCC4721900032F00B911AD /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		8EDCC4731900032F00B911AD /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		8EDCC4741900032F00B911AD /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		8EDCC4751900032F00B911AD /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		8EDCC4761900032F00B911AD /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		8EDCC4791900032F00B911AD /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg1.png; sourceTree = "<group>"; };
+		8EDCC47A1900032F00B911AD /* bgIpad0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgIpad0.jpg; sourceTree = "<group>"; };
+		8EDCC47B1900032F00B911AD /* bgIpad1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgIpad1.jpg; sourceTree = "<group>"; };
+		8EDCC47C1900032F00B911AD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8EDCC47D1900032F00B911AD /* noTouchAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noTouchAdd.png; sourceTree = "<group>"; };
+		8EDCC47E1900032F00B911AD /* noTouchMult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noTouchMult.png; sourceTree = "<group>"; };
+		8EDCC47F1900032F00B911AD /* noTouchMute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noTouchMute.png; sourceTree = "<group>"; };
+		8EDCC4801900032F00B911AD /* noTouchPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noTouchPlay.png; sourceTree = "<group>"; };
+		8EDCC4811900032F00B911AD /* noTouchStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noTouchStop.png; sourceTree = "<group>"; };
+		8EDCC4821900032F00B911AD /* yesTouchAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yesTouchAdd.png; sourceTree = "<group>"; };
+		8EDCC4831900032F00B911AD /* yesTouchMult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yesTouchMult.png; sourceTree = "<group>"; };
+		8EDCC4841900032F00B911AD /* yesTouchMute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yesTouchMute.png; sourceTree = "<group>"; };
+		8EDCC4851900032F00B911AD /* yesTouchPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yesTouchPlay.png; sourceTree = "<group>"; };
+		8EDCC4861900032F00B911AD /* yesTouchStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yesTouchStop.png; sourceTree = "<group>"; };
+		8EDCC4871900032F00B911AD /* button0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button0.png; sourceTree = "<group>"; };
+		8EDCC4881900032F00B911AD /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = "<group>"; };
+		8EDCC4891900032F00B911AD /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
+		8EDCC48A1900032F00B911AD /* button3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button3.png; sourceTree = "<group>"; };
+		8EDCC48B1900032F00B911AD /* button4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button4.png; sourceTree = "<group>"; };
+		8EDCC48C1900032F00B911AD /* button5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +154,8 @@
 		8EDCC41C1900020600B911AD = {
 			isa = PBXGroup;
 			children = (
+				8EDCC4601900032F00B911AD /* udpBasedOn */,
+				8EDCC4771900032F00B911AD /* images */,
 				8EDCC42E1900020600B911AD /* playerControllerUdp */,
 				8EDCC4501900020600B911AD /* playerControllerUdpTests */,
 				8EDCC4271900020600B911AD /* Frameworks */,
@@ -153,6 +225,84 @@
 				8EDCC4531900020600B911AD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EDCC4601900032F00B911AD /* udpBasedOn */ = {
+			isa = PBXGroup;
+			children = (
+				8EDCC4611900032F00B911AD /* CocoaLumberjack */,
+				8EDCC4751900032F00B911AD /* GCDAsyncUdpSocket.h */,
+				8EDCC4761900032F00B911AD /* GCDAsyncUdpSocket.m */,
+			);
+			path = udpBasedOn;
+			sourceTree = "<group>";
+		};
+		8EDCC4611900032F00B911AD /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				8EDCC4621900032F00B911AD /* DDAbstractDatabaseLogger.h */,
+				8EDCC4631900032F00B911AD /* DDAbstractDatabaseLogger.m */,
+				8EDCC4641900032F00B911AD /* DDASLLogger.h */,
+				8EDCC4651900032F00B911AD /* DDASLLogger.m */,
+				8EDCC4661900032F00B911AD /* DDFileLogger.h */,
+				8EDCC4671900032F00B911AD /* DDFileLogger.m */,
+				8EDCC4681900032F00B911AD /* DDLog+LOGV.h */,
+				8EDCC4691900032F00B911AD /* DDLog.h */,
+				8EDCC46A1900032F00B911AD /* DDLog.m */,
+				8EDCC46B1900032F00B911AD /* DDTTYLogger.h */,
+				8EDCC46C1900032F00B911AD /* DDTTYLogger.m */,
+				8EDCC46D1900032F00B911AD /* Extensions */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		8EDCC46D1900032F00B911AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8EDCC46E1900032F00B911AD /* DDContextFilterLogFormatter.h */,
+				8EDCC46F1900032F00B911AD /* DDContextFilterLogFormatter.m */,
+				8EDCC4701900032F00B911AD /* DDDispatchQueueLogFormatter.h */,
+				8EDCC4711900032F00B911AD /* DDDispatchQueueLogFormatter.m */,
+				8EDCC4721900032F00B911AD /* DDMultiFormatter.h */,
+				8EDCC4731900032F00B911AD /* DDMultiFormatter.m */,
+				8EDCC4741900032F00B911AD /* README.txt */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8EDCC4771900032F00B911AD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8EDCC4781900032F00B911AD /* btnPics */,
+				8EDCC4871900032F00B911AD /* button0.png */,
+				8EDCC4881900032F00B911AD /* button1.png */,
+				8EDCC4891900032F00B911AD /* button2.png */,
+				8EDCC48A1900032F00B911AD /* button3.png */,
+				8EDCC48B1900032F00B911AD /* button4.png */,
+				8EDCC48C1900032F00B911AD /* button5.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		8EDCC4781900032F00B911AD /* btnPics */ = {
+			isa = PBXGroup;
+			children = (
+				8EDCC4791900032F00B911AD /* bg1.png */,
+				8EDCC47A1900032F00B911AD /* bgIpad0.jpg */,
+				8EDCC47B1900032F00B911AD /* bgIpad1.jpg */,
+				8EDCC47C1900032F00B911AD /* icon.png */,
+				8EDCC47D1900032F00B911AD /* noTouchAdd.png */,
+				8EDCC47E1900032F00B911AD /* noTouchMult.png */,
+				8EDCC47F1900032F00B911AD /* noTouchMute.png */,
+				8EDCC4801900032F00B911AD /* noTouchPlay.png */,
+				8EDCC4811900032F00B911AD /* noTouchStop.png */,
+				8EDCC4821900032F00B911AD /* yesTouchAdd.png */,
+				8EDCC4831900032F00B911AD /* yesTouchMult.png */,
+				8EDCC4841900032F00B911AD /* yesTouchMute.png */,
+				8EDCC4851900032F00B911AD /* yesTouchPlay.png */,
+				8EDCC4861900032F00B911AD /* yesTouchStop.png */,
+			);
+			path = btnPics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +382,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EDCC4A71900032F00B911AD /* button2.png in Resources */,
+				8EDCC4A81900032F00B911AD /* button3.png in Resources */,
+				8EDCC4971900032F00B911AD /* bg1.png in Resources */,
+				8EDCC4A01900032F00B911AD /* yesTouchAdd.png in Resources */,
 				8EDCC43F1900020600B911AD /* Main_iPad.storyboard in Resources */,
+				8EDCC49A1900032F00B911AD /* icon.png in Resources */,
+				8EDCC4991900032F00B911AD /* bgIpad1.jpg in Resources */,
+				8EDCC49B1900032F00B911AD /* noTouchAdd.png in Resources */,
+				8EDCC49D1900032F00B911AD /* noTouchMute.png in Resources */,
 				8EDCC4441900020600B911AD /* Images.xcassets in Resources */,
+				8EDCC49C1900032F00B911AD /* noTouchMult.png in Resources */,
+				8EDCC4A11900032F00B911AD /* yesTouchMult.png in Resources */,
+				8EDCC49F1900032F00B911AD /* noTouchStop.png in Resources */,
+				8EDCC4A41900032F00B911AD /* yesTouchStop.png in Resources */,
+				8EDCC4AA1900032F00B911AD /* button5.png in Resources */,
+				8EDCC4A91900032F00B911AD /* button4.png in Resources */,
+				8EDCC4A21900032F00B911AD /* yesTouchMute.png in Resources */,
+				8EDCC4981900032F00B911AD /* bgIpad0.jpg in Resources */,
+				8EDCC4A51900032F00B911AD /* button0.png in Resources */,
+				8EDCC49E1900032F00B911AD /* noTouchPlay.png in Resources */,
 				8EDCC43C1900020600B911AD /* Main_iPhone.storyboard in Resources */,
+				8EDCC4A61900032F00B911AD /* button1.png in Resources */,
+				8EDCC4A31900032F00B911AD /* yesTouchPlay.png in Resources */,
 				8EDCC4331900020600B911AD /* InfoPlist.strings in Resources */,
+				8EDCC4951900032F00B911AD /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +425,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EDCC4901900032F00B911AD /* DDLog.m in Sources */,
+				8EDCC4911900032F00B911AD /* DDTTYLogger.m in Sources */,
 				8EDCC4421900020600B911AD /* playerControllerUdpViewController.m in Sources */,
+				8EDCC4921900032F00B911AD /* DDContextFilterLogFormatter.m in Sources */,
+				8EDCC4961900032F00B911AD /* GCDAsyncUdpSocket.m in Sources */,
+				8EDCC48F1900032F00B911AD /* DDFileLogger.m in Sources */,
 				8EDCC4391900020600B911AD /* playerControllerUdpAppDelegate.m in Sources */,
+				8EDCC48D1900032F00B911AD /* DDAbstractDatabaseLogger.m in Sources */,
+				8EDCC4941900032F00B911AD /* DDMultiFormatter.m in Sources */,
+				8EDCC4931900032F00B911AD /* DDDispatchQueueLogFormatter.m in Sources */,
 				8EDCC4351900020600B911AD /* main.m in Sources */,
+				8EDCC48E1900032F00B911AD /* DDASLLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
